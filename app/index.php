@@ -11,7 +11,7 @@ $app = new \Slim\App([]);
 
 
 $app->get('[/]', function (Request $request, Response $response) {    
-    $response->getBody()->write("GET => Willkomen Mariano!!! ,a SlimFramework");
+    $response->getBody()->write("GET => Mariano Arias - Programacion 3 - UTN Fra 2021, a SlimFramework");
     return $response;
 
 });
